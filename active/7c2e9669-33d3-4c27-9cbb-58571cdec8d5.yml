@@ -1,5 +1,5 @@
 summary: Fix Worker
-notes: |
+notes: |+
   Need to check worker and scheduler. its working manual, scheduler not triggering or we couldnt understand what's happening to worker.
 
   Need to simulate worker stuff.
@@ -7,7 +7,9 @@ notes: |
   step 1: Check cache adding steps for active space.
   step 2: Check cache reader, its worker, worker reads cache and creates jobs for each active space record.
   step 3: Check workers job creation
+
 tags:
+- bug
 - lift
 project: lift
 priority: P1
