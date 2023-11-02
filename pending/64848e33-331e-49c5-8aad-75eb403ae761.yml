@@ -1,6 +1,7 @@
 summary: Task Reordering on Assignee Change
 notes: ""
 tags:
+- bug
 - lift
 project: lift
 priority: P0
